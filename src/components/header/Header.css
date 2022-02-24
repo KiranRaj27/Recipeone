@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0%;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  background-color: lightskyblue;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo {
+  color: whitesmoke;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.cuisines {
+  padding-right: 50px;
+}
+
+.cuisines a {
+  padding: 10px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.cuisines a:hover {
+  background-color: whitesmoke;
+  color: gray;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list > li {
+  margin: 5px;
+  cursor: pointer;
+}

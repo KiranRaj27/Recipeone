@@ -1,0 +1,73 @@
+.cuisineTile {
+  width: 100%;
+  transform: translate(0px, 50px);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  overflow: auto;
+  top: 0;
+  height: auto;
+  bottom: 50px;
+  margin-left: 35px;
+}
+
+.cuisineCard {
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  flex-direction: column;
+}
+
+.cuisineCard .cuisineImage {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.cuisineCard .cuisineTitle {
+  font-family: cursive;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.cuisineTile {
+  transform: translate(0px, 70px);
+}
+
+.cuisineCard {
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  flex-direction: column;
+}
+
+.cuisineCard .cuisineImage {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.cuisineCard .cuisineTitle {
+  font-family: cursive;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.cuisineCard .cuisineInfo {
+  color: grey;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  font-size: 14px;
+}
+
+.cuisineCard .cuisineInfo span {
+  margin: 0px 10px 0px 5px;
+}
