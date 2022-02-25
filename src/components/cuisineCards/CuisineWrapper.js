@@ -18,7 +18,7 @@ const CuisineWrapper = (props) => {
 
   async function fetchCuisine() {
     let response = await fetch(
-      `https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&cuisine=${props.selectedCuisine}&addRecipeInformation=true&number=8`
+      `https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&cuisine=${props.selectedCuisine}&addRecipeInformation=true&number=12`
     );
     var cuisineData = await response.json();
     setCuisines(cuisineData.results);
