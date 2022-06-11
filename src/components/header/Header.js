@@ -8,7 +8,7 @@ let Header = (props) => {
       <nav className="cuisines">
         <ul className="list">
           <li onClick={(e) => props.cuisineSelect("Indian")}>Indian</li>
-          <li onClick={(e) => props.cuisineSelect("Italian")}>Italian</li>
+          <li onClick={(e) => props.cuisineSelect("Italian")}>Spanish</li>
           <li onClick={(e) => props.cuisineSelect("American")}>American</li>
           <li onClick={(e) => props.cuisineSelect("Chinese")}>Chinese</li>
         </ul>
